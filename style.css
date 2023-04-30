@@ -1,0 +1,174 @@
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+body{
+    font-family: "Montserrat";
+}
+.title_h1{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/*Navigation bar*/
+#nav-item{
+    font-size:1.2em;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+.navbar{
+    margin-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-family: "Montserrat-Light";
+}
+
+/*Download buttons*/
+.download_button{
+    margin: 5% 2% 5% 0%;
+}
+/* title image */
+.title_image{
+    position: absolute;
+    transform: rotate(25deg);
+    width: 22.5%;
+    right: 25%;
+}
+
+/* for icons and their text */
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+}
+.features-box{
+    text-align: center;
+}
+.icon_head{
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+}
+.icon{
+    color: #ef8172;
+    padding: 5% 45%;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+p{
+    color: #8f8f8f;
+    padding-left: 27px;
+    width: 300px;
+}
+
+/* testimonials */
+#testimonials{
+    background-color: #ef8172;
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    
+}
+.test_head{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.test_img{
+    width: 100px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/* press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press_img{
+    width: 18%;
+}
+
+/* pricing */
+#pricing{
+    font-family: "Montserrat";
+    padding: 7% 10%;
+    text-align: center;
+}
+.pricing_h2{
+    font-size: 3rem;
+}
+.pricing_p{
+    font-family: "Montserrat-Light";
+    font-size: 1.3rem;
+    padding-bottom: 25px;
+    width: auto;
+}
+.card_head{
+    text-align: center;
+}
+.card-title{
+    font-size: 3rem;
+}
+.card_body{
+    text-align: center;
+}
+.card_p{
+    font-family: "Montserrat-Light";
+    padding-left: 10%;
+}
+.card_btn{
+    font-family: "Montserrat-Light";
+}
+
+@media (max-width:1080px ){
+    #title{
+        text-align: center;
+    }
+    .title_image{
+        position: static;
+        transform: rotate(0);
+        width: 250px;
+        height: 500px;
+    }
+}
+
+/* cta */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 7% 15%;
+}
+.cta_h3{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    padding: 3% 15%;
+}
+.fa_icon{
+    padding-right: 3%;
+}
+.cta_p{
+    font-size: 1.3rem;
+    padding-top: 1.5%;
+    padding-right: 5%;
+    width: auto;
+}
